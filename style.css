@@ -1,0 +1,65 @@
+body{
+margin:0;
+font-family:Poppins,Arial;
+background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+min-height:100vh;
+}
+.center{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.box{
+background:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 0 20px rgba(0,0,0,.2);
+}
+.page{
+max-width:800px;
+margin:auto;
+padding:40px;
+text-align:center;
+animation:fade 1.5s;
+}
+@keyframes fade{
+from{opacity:0}
+to{opacity:1}
+}
+button{
+padding:10px 20px;
+border:none;
+border-radius:20px;
+background:#ff5f7e;
+color:white;
+cursor:pointer;
+}
+input{
+padding:8px;
+border-radius:10px;
+border:1px solid #ccc;
+}
+.slideshow img,.gallery img{
+width:200px;
+border-radius:15px;
+margin:10px;
+}
+#game{
+display:grid;
+grid-template-columns:repeat(4,60px);
+gap:10px;
+justify-content:center;
+}
+.card{
+width:60px;height:60px;
+background:#ff5f7e;
+border-radius:10px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:25px;
+color:white;
+cursor:pointer;
+}
+.kavithai{line-height:2;font-size:18px}
